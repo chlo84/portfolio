@@ -1,12 +1,18 @@
 import React from 'react'; 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-scroll";
-
+import Button from 'react-bootstrap/Button'
 function Navbar() {
 return (
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
- 
+      <div className="d-grid gap-2">
+  <Button variant="primary" size="lg">
+    Block level button
+  </Button>
+  <Button variant="secondary" size="lg">
+    Block level button
+  </Button>
+</div>
    
    <div class="collapse navbar-collapse" id="navbarNav">
      <ul class="navbar-nav">

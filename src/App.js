@@ -7,7 +7,6 @@ import Projects from './components/Projects/projects';
 import Skills from './components/Skills/skills';
 import Footer from './components/Footer/footer';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 function App() {
   return (
