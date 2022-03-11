@@ -1,0 +1,13 @@
+.landingPage{
+    background-color: lightseagreen;
+    top: -200;
+    overflow: visible;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    margin-top: 75px;
+    
+    }
+
+.page{
+    height: 100vw;
+      }

@@ -1,6 +1,4 @@
-.page{
-  height: 100vw;
-}
+
 .carousel{
   height: 400px;
   width: 1500px;
@@ -33,13 +31,5 @@
   background-color: white;
   border-bottom-right-radius: 200px;
   border-bottom-left-radius: 200px; 
-
-}
-.landingPage{
-background-color: lightseagreen;
-top: -200;
-overflow: visible;
-border-top-right-radius: 200px;
-border-top-left-radius: 200px;
 
 }

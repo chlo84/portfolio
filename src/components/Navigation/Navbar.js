@@ -1,10 +1,11 @@
 import React from 'react'; 
 import { Link } from "react-scroll";
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import './Navbar.css';
 function Navbar() {
 return (
     
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="Nb navbar navbar-expand-lg navbar-light bg-light">
       
    
    <div className="collapse navbar-collapse" id="navbarNav">

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import "./landingPage.css";
 function LandingPage () {
 return (
     <div className='page landingPage' id='home'>
