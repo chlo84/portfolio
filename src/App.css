@@ -2,34 +2,20 @@
 .carousel{
   height: 400px;
   width: 1500px;
-  background-color: grey;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #623b76 50%, #2B86C5 100%);
   display: flexbox;
   align-content: center;
 }
-.navbar-nav{
-  display: flex;
-  justify-content: center;
-}
-.navLink{
-  margin: 10px;
-}
-.navLink:hover{
-  background-color: palevioletred;
 
-}
 .footerPage{
   background-color: lightseagreen;
   top: -200;
   overflow: visible;
 
 }
-.skillsPage{
-  background-color: lightseagreen;
-  
-}
-.roundedBottom{
-  background-color: white;
-  border-bottom-right-radius: 200px;
-  border-bottom-left-radius: 200px; 
+.page{
+  height: 100vh;
+  padding-top: 40px;
+    }
 
-}
