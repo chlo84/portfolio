@@ -13,3 +13,22 @@
     background-color: palevioletred;
   
   }
+  .navHamburger{
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 35px;
+  }
+  
+  @media (max-width: 850px){
+    .navBarText{
+      display: none;
+    }
+  
+    .navHamburger{
+      display: flex;
+    }
+  
+    .hamburgerText{
+      display: flex;
+    }
+  }

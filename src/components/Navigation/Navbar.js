@@ -1,10 +1,18 @@
-import React from 'react'; 
+import React, { useEffect } from 'react'; 
 import { Link } from "react-scroll";
 import Button from 'react-bootstrap/Button';
 import './Navbar.css';
+import { AiOutlineMenu } from "react-icons/ai";
+
+
+
+
 function Navbar() {
 return (
+  <nav className='navBar'>
+  <Link className='navLogo navBarLi' to='landingPage' smooth={true}>
     
+  </Link>
     <nav className="Nb navbar navbar-expand-lg navbar-light bg-light">
       
    
@@ -26,11 +34,16 @@ return (
          <Link to='contact' smooth={true} className='navLink'> Contact Information</Link>
        </li>
        
+  {<AiOutlineMenu/>}
+    </ul> 
+  </div>
+</nav>
+   </nav> 
+
        
-     </ul>
-   </div>
+     
+  
  
-</nav> 
     
 )
 
