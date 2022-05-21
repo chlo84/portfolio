@@ -1,10 +1,12 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+import BridgeImg from './../../Img/VerrazanoB.jpg'
+// import Button from 'react-bootstrap/Button';
 import "./landingPage.css";
 function LandingPage () {
 return (
-    <div className='page landingPage' id='home'>
+    <div className='page LandingPage' id='home'>
         <h1>landingPage</h1>
+        <img src= {BridgeImg} alt='NYC Bridge'/>
     </div>
 )
 }
