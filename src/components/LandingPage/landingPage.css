@@ -4,12 +4,13 @@
 .LandingPage{
     /* background-color: lightseagreen; */
     background-image: url('./../../Img/VerrazanoB.jpg');
-    width: 100px;
+    width: auto;
+    /* height: auto; */
     top: -200;
     overflow: visible;
-    border-top-right-radius: 200px;
+    /* border-top-right-radius: 200px;
     border-top-left-radius: 200px;
-    margin-top: 75px;
+    margin-top: 75px; */
     
     }
 

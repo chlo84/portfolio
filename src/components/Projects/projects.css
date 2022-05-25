@@ -1,7 +1,16 @@
-.roundedBottom{
+/* .roundedBottom{
     background-color: white;
     border-bottom-right-radius: 200px;
     border-bottom-left-radius: 200px; 
   
-  }
+  } */
   
+  .Calculatorimg{
+    height: 100px;
+    width: 100px;
+  }
+
+  .Fabulousfliximg{
+    height: 100px;
+    width: 100px;
+  }
